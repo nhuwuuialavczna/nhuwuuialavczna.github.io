@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            console.log(window.outerHeight);
+           $('.gui').on('click',function () {
+               console.dir(this.id);
+           }) ;
+        });
+
+    </script>
+</head>
+<body>
+<button class="gui" id="gui1">Gửi 1</button>
+<button class="gui" id="gui2">Gửi 2</button>
+<button class="gui" id="gui3">Gửi 3</button>
+</body>
+</html>
